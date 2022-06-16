@@ -6,6 +6,9 @@ export const InputTextWrapper = styled.div`
   flex-direction: column;
   margin-bottom: 20px;
   width: ${(props) => (props.customWidth ? props.customWidth : "100%")};
+  @media(max-width: 700px) {
+    width: ${(props)=> (props.customWidth ?  "60%" : "100%")}
+  }
 `;
 
 export const InputLabel = styled.label`
@@ -18,7 +21,7 @@ export const Input = styled.input`
   border-top-left-radius: ${(props) =>
     props.customBorderRadius ? "0px" : "5px"};
   border-bottom-right-radius: 5px;
-  border-top-left-radius: ${(props) =>
+  border-bottom-left-radius: ${(props) =>
     props.customBorderRadius ? "0px" : "5px"};
   border-top-right-radius: 5px;
   border: 1px solid #ebe9e9;

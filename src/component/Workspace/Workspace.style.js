@@ -12,6 +12,15 @@ export const UrlPrefix = styled.div`
   margin-bottom: 20px;
   margin-top: 5px;
   padding: 5px;
+  width: 30%;
+
+  @media(max-width: 700px) {
+    width: 40%;
+  }
+
+  @media(max-width: 450px) {
+    width: 150px;
+  }
 `;
 
 export const WorkspaceUrlContainer = styled.div`
