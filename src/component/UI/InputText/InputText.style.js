@@ -9,6 +9,9 @@ export const InputTextWrapper = styled.div`
   @media(max-width: 700px) {
     width: ${(props)=> (props.customWidth ?  "60%" : "100%")}
   }
+  @media(max-width: 460px) {
+    width: ${(props)=> (props.customWidth ?  "56%" : "100%")}
+  }
 `;
 
 export const InputLabel = styled.label`
