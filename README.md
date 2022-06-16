@@ -7,3 +7,4 @@ ReactJs, Styled Component
 
 ## Hosted Url
 
+https://eden-workspace.netlify.app
